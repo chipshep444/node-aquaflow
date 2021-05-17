@@ -1,28 +1,30 @@
-Install package JSON: npm init
-Install the Express framework by entering the following: npm install express@4.17.1
-Install Morgan middleware library is used for logging: npm install morgan@1.10.0
+# Aquaflow Plumbing API
 
-REST endpoints for Aquaflow Plumbing platform based on NodeJS & MongoDB.
+- Install package JSON: npm init
+- Install the Express framework by entering the following: npm install express@4.17.1
+- Install Morgan middleware library is used for logging: npm install morgan@1.10.0
 
-Open Endpoints
-Open endpoints require no Authentication.
+- REST endpoints for Aquaflow Plumbing platform based on NodeJS & MongoDB.
 
-Login : POST /api/login/
+## Open Endpoints
+- Open endpoints require no Authentication.
 
-Service Request related
-Endpoints for viewing and manipulating the Service Request API
+- Login : POST /api/login/
 
-Get all service requests : GET /api/cakes/
-Create service request: POST /api/cakes/
-Show details for one service request : GET /api/cakes/:cakeid/
-Update service request details: PUT /api/cakes/:cakeid/
-Delete service request from catalog: DELETE /api/cakes/:cakeid/
+## Service Request related
+- Endpoints for viewing and manipulating the Service Request API
 
-Subscribe related
-Endpoints for viewing and manipulating the Subscribe API
+- Get all service requests : GET /api/cakes/
+- Create service request: POST /api/cakes/
+- Show details for one service request : GET /api/cakes/:cakeid/
+- Update service request details: PUT /api/cakes/:cakeid/
+- Delete service request from catalog: DELETE /api/cakes/:cakeid/
 
-Get all subscriptions : GET /api/comments/
-Create subscription: POST /api/comments/
-Show details for one subscription : GET /api/comments/:commentsid/
-Update subscription details: PUT /api/comments/:commentsid/
-Delete subscription from catalog: DELETE /api/comments/:commentsid/
+## Subscribe related
+- Endpoints for viewing and manipulating the Subscribe API
+
+- Get all subscriptions : GET /api/comments/
+- Create subscription: POST /api/comments/
+- Show details for one subscription : GET /api/comments/:commentsid/
+- Update subscription details: PUT /api/comments/:commentsid/
+- Delete subscription from catalog: DELETE /api/comments/:commentsid/
